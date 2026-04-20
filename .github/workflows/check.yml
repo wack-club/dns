@@ -6,9 +6,9 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2.7.0
 
       - name: DNSControl check
-        uses: koenrh/dnscontrol-action@v3
+        uses: koenrh/dnscontrol-action@58d7e41486784f703aef3d27cdc19e97c0d87da3 # v3.31.4
         with:
           args: check
